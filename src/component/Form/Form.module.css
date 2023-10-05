@@ -1,0 +1,20 @@
+.form {
+    width: 60%;
+    background-color: #9c92ab;
+    padding: 100px;
+    border-radius: 10px;
+    
+}
+.btn {
+    padding: 10px 20px;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 22px;
+}
+.btn:disabled {
+    background-color : rgb(230, 227, 227);
+    cursor: not-allowed;
+}

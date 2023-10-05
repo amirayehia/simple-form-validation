@@ -1,0 +1,22 @@
+.label {
+    display: block;
+    font-size: 22px;
+    margin: 15px 10px;
+    font-weight: bold;
+    color: white;
+}
+.input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 6px;
+    border-radius: 5px;
+    color:gray;
+    font-weight: bold;
+}
+.input:focus{
+    outline: 2px solid purple;
+}
+.itnpu-error {
+    background-color: rgba(250, 96, 96, 0.526);
+}
